@@ -1,0 +1,106 @@
+.edit-event-modal {
+    z-index: 1000;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    font-family: "Roboto", sans-serif;
+}
+.edit-event-modal .modal-content {
+    background-color: #fbf0df;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;
+    color: #334d66;
+}
+
+.edit-event-modal .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: transparent;
+    border: none;
+    font-size: 24px;
+    font-weight: bold;
+    color: #334d66;
+    cursor: pointer;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.2s ease;
+}
+
+.edit-event-modal .close:hover,
+.edit-event-modal .close:focus {
+    color: #5383af;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.edit-event-modal h1 {
+    font-size: 1.5em;
+    color: #334d66;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.edit-event-modal .form-group {
+    margin-bottom: 20px;
+}
+
+.edit-event-modal .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #334d66;
+    text-align: left;
+}
+
+.edit-event-modal .form-group input,
+.edit-event-modal .form-group select,
+.edit-event-modal .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    background: #fff8ec;
+    color: #334d66;
+    font-family: 'Arial', sans-serif;
+}
+
+.edit-event-modal .form-group textarea {
+    height: 100px;
+    background: #fff8ec;
+}
+
+.edit-event-modal .form-group button[type="submit"] {
+    background-color: #4caf50;
+    color: #fff8ec;
+    float: right;
+    margin-left: 10px;
+    border-radius: 4px;
+    padding: 10px ;
+}
+
+.edit-event-modal .form-group button[type="button"] {
+    background-color: #f44336;
+    color: #fff8ec;
+    float: right;
+    border-radius: 4px;
+    padding: 10px;
+}
+/*
+h1 {
+    font-size: 1.5em;
+    color: #ff8500;
+    text-align: left;
+    margin-bottom: 20px;
+}
+*/

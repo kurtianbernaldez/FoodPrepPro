@@ -1,0 +1,92 @@
+:root {
+
+  --light00: #fbf0df;
+  --light01: #fff8ec;
+  --light02: #f5f5f5;
+
+  --dark00: #151515;
+  --dark01: #0F172A;
+  --dark02: #151717;
+
+  --gray00: #c3c6ce;
+  --gray01: #919EAB;
+  --gray02: #71717A;
+  --gray03: #F4F4F5;
+
+  --primary00: #c0613d;
+  --primary01: #c0963d;
+
+  --secondary00: #0F172A;
+  --secondary01: #334d66;
+ 
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-snap-type: y proximity;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--light00);
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24;
+}
+
+body.modal-open {
+  overflow-y: hidden; /* Disable vertical scrolling */
+   /* Adjust for scrollbar width */
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+/* Fonts */
+@font-face {
+  font-family: 'Kare';
+  src: url('../public/fonts/Kare.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Kare-Shadow';
+  src: url('../public/fonts/Kare-Shadow.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Kare-Gradient';
+  src: url('../public/fonts/Kare-Gradient.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Kare-Light';
+  src: url('../public/fonts/Kare-Light.ttf') format('truetype');
+}
+
+/*
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 20px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*/
+
